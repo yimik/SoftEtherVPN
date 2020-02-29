@@ -2,7 +2,7 @@ version: "3"
 
 services:
   app:
-    image: siomiz/softethervpn
+    image: yimik/softethervpn
     volumes:
       - ./vpn_server.config:/usr/vpnserver/vpn_server.config
     cap_add:
